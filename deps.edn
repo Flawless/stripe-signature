@@ -1,0 +1,4 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        commons-codec/commons-codec {:mvn/version "1.16.0"}}
+ :aliases {:dev {:extra-paths ["test"]}}}
